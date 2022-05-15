@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home Gulliver Traveller</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Início cabeçalho -->
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" aria-current="page" href="#">Cadastro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" aria-current="page" href="#">Localizações</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" aria-current="page" href="#">Quem Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class=" nav-link active me-2" aria-current="page" href="#">Contato</a>
+                            </li>
+                        </ul>
+
+                        <a class=" active me-3 login" aria-current="page" href="#">Login <i
+                                class="fa-solid fa-user user-icon"></i></a>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Fim cabeçalho -->
+
+        <!-- Principal -->
+        <main class="d-flex">
+
+            <img class="logo img-fluid" src="/imagens/logo-projeto-novo 1.svg" alt="Logo Gulliver Traveller">
+
+
+            <!-- Inicio Carousel -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/imagens/carousel/ponteSP.png" class="d-block w-100 img-fluid" alt="Ponte Estaiada">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ponte Estaiada</h5>
+                            <p>Um marco da capital paulistana! E para os turistas uma imagem familiar vista no
+                                telejornal matinal!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/carousel/masp.jpg" class="d-block w-100 img-fluid"
+                            alt="Museu de Arte de São Paulo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>MASP</h5>
+                            <p>MASP marca o coração da Avenida Paulista</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/carousel/ibirapuera.jpg" class="d-block w-100 img-fluid"
+                            alt="Parque do Ibirapuera">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Parque do Ibirapuera</h5>
+                            <p>O Parque do Ibirapuera, uma das principais atrações de São Paulo, abriga dezenas de
+                                atividades que você pode curtir todos os dias da semana</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Fim Carousel -->
+        </main>
+        <!-- Fim Principal -->
+
+        <!-- Inicio Rodapé -->
+        <footer>
+
+            <!-- Inicio Barra de Pesquisa -->
+            <form action="" method="get">
+                <div class="form-group">
+                    <input type="text" name="destino" id="destino" placeholder="Pesquise seu Destino...">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+            <!-- Fim Barra de Pesquisa -->
+
+            <!-- Inicio Cards -->
+            <div class="row mx-1 my-4">
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+                    <div class="card">
+                        <img src="/imagens/cards/carros1.png" class="card-img-top img-fluid" alt="Aluguel de Carros">
+                        <div class="card-body">
+                            <h5 class="card-title">Alugue seu Carro</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Alugue agora!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-12 col-sm-12 col-md-6 col-lg-3">
+
+                    <div class="card">
+                        <img src="/imagens/cards/hotel.jpg" class="card-img-top img-fluid" alt="Reservar Hoteís">
+                        <div class="card-body">
+                            <h5 class="card-title">Onde se hospedar</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Faça sua Reserva!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+                    <div class="card">
+                        <img src="/imagens/cards/vidanoturna.jpg" class="card-img-top img-fluid" alt="Vida Noturna SP">
+                        <div class="card-body">
+                            <h5 class="card-title">Vida Noturna</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Conhecer!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="/imagens/cards/gastronomia.jpg" class="card-img-top img-fluid" alt="Gastronomia SP">
+                        <div class="card-body">
+                            <h5 class="card-title">Gastronomia Paulistana</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Explore!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fim Cards -->
+
+            <article class="sobre">
+                <p> Fique por dentro das novidades:</p>
+                <a href=""><i class="fa-brands fa-instagram redes-sociais"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-square redes-sociais"></i></a>
+                <a href=""><i class="fa-brands fa-twitter redes-sociais"></i></a>
+
+
+            </article>
+
+
+        </footer>
+        <!-- Fim Rodapé -->
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
